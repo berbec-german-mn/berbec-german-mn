@@ -23,6 +23,17 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+
+
+  <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery.lighterbox.0.0.3.min.js"></script>
+    <script>
+        $(function(){ // document ready
+            $(".lighterbox").lighterbox({ overlayColor : "white" });
+        });
+    </script>
+    <!-- <link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'> --> -->
 </head>
 
 <body>
@@ -135,6 +146,10 @@
 
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Matcă</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Postări</button>
           </li>
 
           <li class="navbar-item">
@@ -873,6 +888,77 @@
 
               </a>
             </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+      <article class="postări" data-page="postări">
+
+        <header>
+          <h2 class="h2 article-title">Postări</h2>
+        </header>
+
+        <section class="blog-posts">
+
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="./assets/images/postari/post1/img.jpg" class="lighterbox">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/postari/post1/img.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Negru</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">10 Februarie 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Mascul Negru</h3>
+
+                  <p class="blog-text">
+                    <b>Părinții:</b> 0-1 Havana mantulat x 1-0 Negru
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <!-- <li class="blog-post-item">
+                <a href="./assets/images/postari/post1/img.jpg" class="lighterbox">
+                  <figure class="blog-banner-box">
+                    <img src="./assets/images/postari/post1/img.jpg" loading="lazy" />
+                  </figure>
+                  <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Negru</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">10 Februarie 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Mascul Negru</h3>
+
+                  <p class="blog-text">
+                    <b>Părinții:</b> 0-1 Havana mantulat x 1-0 Negru
+                  </p>
+
+                </div>
+                </a>
+            </li> -->
 
           </ul>
 
